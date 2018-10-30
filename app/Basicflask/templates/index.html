@@ -1,0 +1,15 @@
+<html>
+
+<body>
+<h1>HIII {{user.username}}</h1>
+
+{%for post in posts %}
+
+{{post.author.username}}says:
+{{post.body}} 
+<br>
+
+{%endfor%}
+
+</body>
+</html>
